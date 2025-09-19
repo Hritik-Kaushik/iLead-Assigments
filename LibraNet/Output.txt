@@ -1,0 +1,20 @@
+Borrowed by User 1 -> Item 101
+   Period: 2025-09-19 -> 2025-10-03
+   Fine Rate: Rs.10/day
+Failure: Item not available: Book: "Clean Code" by Robert C. Martin (ID: 101) - Status: BORROWED
+Borrowed by User 2 -> Item 202
+   Period: 2025-09-19 -> 2025-09-26
+   Fine Rate: Rs.10/day
+Playing audiobook: "Effective Java (Audio)"
+Paused: "Effective Java (Audio)"
+User 1 returned Item 101 late by 3 days -> Fine: Rs.30
+Archived e-magazine issue: 42 ("Tech Monthly")
+
+Audiobooks in catalog:
+   - Audiobook: "Effective Java (Audio)" by Joshua Bloch (ID: 202) - Status: BORROWED
+Error: Invalid ID format: '12a'. Expect digits only.
+Error: Unrecognized duration format: '3fortnights'
+
+User fines summary:
+- Aisha (UserID=1): Rs.30
+- Vikram (UserID=2): Rs.0
